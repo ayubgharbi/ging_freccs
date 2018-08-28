@@ -1,0 +1,121 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+$blue: #00d6d6;
+$red: #ff6a64;
+
+body {
+	padding-top: 100px;
+	font-family: 'Rubik', sans-serif;
+	background: #002a32;
+	color: #fff;
+}
+.my-navbar {
+	height: 90px;
+	background: #fff;	
+	.navbar-brand {
+		color: black;
+		font-size: 15px;
+		&:hover {
+			color: black;
+		};
+
+	}
+	a {
+		color: $blue;
+		font-family: 'Rubik', sans-serif;
+	}
+	li { 
+		a {
+			font-family: 'Rubik', sans-serif;
+			margin-top: 24px;
+			&:hover {
+				color: $blue !important;
+			};
+		}
+	}
+}
+
+.ging {
+	height: 300px;
+	width: 530px;
+	border-radius: 1px;
+}
+.logo{
+	height: 70px;
+	width: 50px;
+}
+
+.hunterxhunter {
+	height: 80px;
+	width: 80px;
+	padding-top: 12px;
+}
+
+.greedisland {
+	width: 100px;
+	height: 50px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+.quote {
+}
+
+
+
+/*
+Skill Section style
+=======================*/
+
+/* Skill bar*/
+
+.teamskillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background: #f2f2f2;
+    height:10px;
+    -webkit-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+.teamskillbar h6{
+    position: absolute;
+    top:-25px;
+    left:0;
+}
+.teamskillbar-bar {
+    height:10px;
+    width:0px;
+    background: $blue;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+
+
+.skill_bottom_content{}
+.skill_bottom_item .separator_small{
+    margin: 20px auto;
+}
+
+.skill-head {
+	border-color: #00d6d6;
+    color: #00d6d6;
+    border: 1px solid $blue;
+    width: 100px;
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	&:hover {
+		color: #fff;
+		border-color: #fff;
+	};
+}
+
