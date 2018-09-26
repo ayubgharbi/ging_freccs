@@ -61,6 +61,7 @@ body {
 	margin-top: 20px;
 }
 .quote {
+	font-weight: bold;
 }
 
 
@@ -123,7 +124,6 @@ Skill Section style
 
 
 .side-video {
-	text-align: center;
 }
 
 #map {
@@ -134,4 +134,32 @@ Skill Section style
 .huntercard {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height: 230px;
+}
+
+.gingadventure {
+	width: 100%;
+}
+
+footer {
+	background: #fff;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.award-image {
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+
+.award-title {
+	font-weight: bold;
+}
+
+.award-image1 {
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	border-radius: 50%;
 }
